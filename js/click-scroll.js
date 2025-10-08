@@ -11,12 +11,12 @@ $.each(sectionArray, function(index, value){
          var docScroll1 = docScroll + 1;
          
         
-         if ( docScroll1 >= offsetSection ){
+         /*if ( docScroll1 >= offsetSection ){
              $('.navbar-nav .nav-item .nav-link').removeClass('active');
              $('.navbar-nav .nav-item .nav-link:link').addClass('inactive');  
              $('.navbar-nav .nav-item .nav-link').eq(index).addClass('active');
              $('.navbar-nav .nav-item .nav-link').eq(index).removeClass('inactive');
-         }
+         }*/
          
      });
     

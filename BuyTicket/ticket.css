@@ -1,0 +1,161 @@
+main {
+    background-image: url("../undraw_pay-with-credit-card_77g6.svg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-attachment: fixed;
+    background-position: center;
+    max-height: 200em;
+    color: black;
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom,
+            rgba(163, 163, 163, 0.823),
+            /* rgba(224, 224, 220, 0) */
+            rgba(204, 203, 203, 0.53));
+}
+
+
+
+.title {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 4px;
+}
+
+.divCartes {
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divCartes .carte {
+    max-width: 22em;
+    max-height: 266px;
+    border: solid 2px black;
+    border-radius: 16px;
+    text-align: center;
+    padding: 13px 2em;
+    box-shadow: 2px 2px 41px rgba(67, 66, 66, 0.3);
+    background-color: #dbd4d4cf;
+}
+
+.carte h5 {
+    font-weight: 400;
+}
+
+.carte .price {
+    font-weight: 400;
+    font-size: 16px;
+    color: #846d6d;
+}
+
+.carte .p {
+    font-size: 17px;
+    text-align: justify;
+    color: #000000;
+}
+
+.buttonLearnMore {
+    border-radius: 12px;
+    border: none;
+    padding: 5px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4em 0px;
+}
+
+
+.inputsForm {
+    width: 13em;
+    border-radius: 6px;
+    padding: 4px 4px;
+    border: none;
+}
+
+.btnFormBuy {
+    padding: 6px;
+    width: 9em;
+    border-radius: 18px;
+    border: none;
+    background-color: aliceblue;
+    margin: 14px 0em;
+
+}
+
+.divInputs {
+    background-color: #dbd4d4cf;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.divInputs h4 {
+    text-align: center;
+    font-size: 21px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.divbtnFormBuy {
+    display: flex;
+    justify-content: center;
+}
+
+.textareanotes {
+    width: 26em;
+}
+
+@media (max-width:793px) {
+    .divCartes {
+        display: block;
+    }
+
+    .divCartes .carte {
+        margin: 0 auto;
+    }
+
+    .space {
+        padding: 12em;
+    }
+}
+
+@media (max-width:913px) {
+    .divCartes .carte {
+        width: 15em;
+        height: 25em;
+        padding-bottom: 19em;
+    }
+
+}
+
+@media (min-width:913px) {
+
+    .divCartes {
+        text-align: center;
+        padding: 1em;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .divCartes .carte {
+        max-width: 22em;
+        max-height: 276px;
+        border: solid 2px black;
+        border-radius: 16px;
+        text-align: center;
+        padding: 13px 2em;
+        box-shadow: 2px 2px 41px rgba(67, 66, 66, 0.3);
+        background-color: #dbd4d4cf;
+        margin: 1px 2px;
+
+    }
+
+
+}

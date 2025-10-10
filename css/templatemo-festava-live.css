@@ -331,11 +331,11 @@ strong {
 /*---------------------------------------
   VIDEO              
 -----------------------------------------*/
-.video-wrap {
+.img-wrap {
   z-index: -100;
 }
 
-.custom-video {
+.custom-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -349,9 +349,12 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-color: var(--primary-color);
+  background-color: rgb(227 227 227);
   padding-top: 12px;
   padding-bottom: 12px;
+}
+.site-header:hover{
+    background-color: rgb(195, 195, 195);
 }
 
 
@@ -823,7 +826,7 @@ strong {
 }
 
 .site-footer-top {
-  background-color: var(--secondary-color);
+  background-color: rgb(227 227 227);;
   background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
   background-repeat: no-repeat;
   margin-bottom: 70px;
@@ -837,7 +840,7 @@ strong {
 }
 
 .site-footer-title {
-  color: var(--primary-color); 
+  color: var(--secondary-color); 
 }
 
 .site-footer-link,
@@ -1014,4 +1017,11 @@ strong {
     font-size: 20px;
   }
 }
+
+.logo{
+      width: 38px;
+    height: 42px;
+}
+
+
 

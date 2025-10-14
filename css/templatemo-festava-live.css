@@ -143,6 +143,7 @@ strong {
   color: var(--link-hover-color);
 }
 
+
 .link-fx-1:hover::before {
   transform: translateX(17px) scaleX(0);
   transition: transform .2s;
